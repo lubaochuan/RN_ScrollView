@@ -19,8 +19,8 @@ export default MyPresentationalComponent = (props) => {
 
 const styles = StyleSheet.create ({
   container: {
+    flex: 1,
     marginTop: 50,
-    height: 500,
     backgroundColor: 'silver'
   },
   item: {
@@ -29,5 +29,5 @@ const styles = StyleSheet.create ({
     height: 40,
     borderColor: 'red',
     borderWidth: 1
-  }
+   }
 })

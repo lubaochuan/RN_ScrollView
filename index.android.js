@@ -24,9 +24,7 @@ export default class MyApp extends Component {
 
   render(){
     return (
-      <View>
-        <MyPresentationalComponent listItems = {this.state.listItems}/>
-      </View>
+      <MyPresentationalComponent listItems = {this.state.listItems}/>
     )
   }
 }
